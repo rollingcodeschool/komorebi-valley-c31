@@ -1,0 +1,24 @@
+   :root {
+      --cozy-cream: #FAF6F0;
+      --cozy-card-bg: #FFFFFF;
+      --cozy-sage: #6B8E6F;
+      --cozy-sage-hover: #557258;
+      --cozy-sage-light: #E7EFE8;
+      --cozy-peach: #E99D79;
+      --cozy-peach-hover: #D78760;
+      --cozy-peach-light: #FDEEE7;
+      --cozy-wood: #4A3B32;
+      --cozy-wood-muted: #7A695E;
+      --cozy-sand: #F2E8DC;
+      --cozy-sand-dark: #D6C8BF;
+      --cozy-yellow: #F3C969;
+      --cozy-yellow-light: #FEF7E6;
+      --cozy-border: #EADBCE;
+    }
+
+     body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: var(--cozy-cream);
+      color: var(--cozy-wood);
+      letter-spacing: 0.2px;
+    }
