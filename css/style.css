@@ -179,6 +179,50 @@ body {
   color: var(--cozy-wood);
 }
 
+/* Galería de Estaciones */
+.cozy-gallery-card {
+  background-color: #ffffff;
+  border: 2px solid var(--cozy-border);
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.cozy-gallery-card:hover {
+  border-color: var(--cozy-peach);
+}
+
+.cozy-gallery-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+/* Acordeón Temático */
+.cozy-accordion .accordion-item {
+  background-color: #ffffff;
+  border: 2px solid var(--cozy-border);
+  border-radius: 1.25rem;
+  margin-bottom: 0.85rem;
+  overflow: hidden;
+}
+
+.cozy-accordion .accordion-button {
+  background-color: #ffffff;
+  color: var(--cozy-wood);
+  font-weight: 700;
+  padding: 1.25rem;
+  box-shadow: none;
+}
+
+.cozy-accordion .accordion-button:not(.collapsed) {
+  background-color: var(--cozy-sage-light);
+  color: var(--cozy-sage);
+}
+
+.cozy-accordion .accordion-body {
+  color: var(--cozy-wood-muted);
+  line-height: 1.7;
+}
+
 /* footer */
 .cozy-footer {
   background-color: #43352c;
