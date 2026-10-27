@@ -223,7 +223,6 @@ body {
   line-height: 1.7;
 }
 
-
 /* Modal Styling */
 .section-beta {
   background-color: var(--cozy-peach-light);
@@ -253,7 +252,6 @@ body {
   border-color: var(--cozy-sage);
   box-shadow: 0 0 0 0.25rem rgba(107, 142, 111, 0.2);
 }
-
 
 /* footer */
 .cozy-footer {
@@ -291,3 +289,5 @@ body {
   max-width: 580px;
   color: var(--cozy-wood-muted);
 }
+
+/* agrego un comentario final */
