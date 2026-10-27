@@ -107,6 +107,21 @@ body {
       font-size: 0.8rem;
     }
 
+    /* Marco Hero */
+    .hero-media-card {
+      background-color: #FFFFFF;
+      border: 3px solid var(--cozy-border);
+      border-radius: 2rem;
+      padding: 0.75rem;
+      box-shadow: 0 16px 36px rgba(74, 59, 50, 0.08);
+    }
+
+    .hero-media-card img {
+      border-radius: 1.5rem;
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+    }
 /* footer */
 .cozy-footer {
   background-color: #43352c;
