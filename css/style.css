@@ -120,7 +120,13 @@ body {
   object-fit: cover;
 }
 
+/* caracteristicas */
+.text-valley {
+  max-width: 620px;
+  color: var(--cozy-wood-muted);
+}
 /* Tarjetas de Features */
+
 .cozy-feature-card {
   background-color: var(--cozy-card-bg);
   border: 2px solid var(--cozy-border);
@@ -157,6 +163,22 @@ body {
   background-color: var(--cozy-yellow-light);
   color: #c69223;
 }
+
+/* iconos */
+.cozy-icon-gameplay {
+  color: var(--cozy-peach);
+}
+
+.cozy-color-muted {
+  color: var(--cozy-wood-muted);
+}
+.cozy-color-sage {
+  color: var(--cozy-sage);
+}
+.cozy-color-wood {
+  color: var(--cozy-wood);
+}
+
 /* footer */
 .cozy-footer {
   background-color: #43352c;
