@@ -23,6 +23,90 @@ body {
   letter-spacing: 0.2px;
 }
 
+/* Botones Coquetos y Cálidos */
+    .btn-cozy-sage {
+      background-color: var(--cozy-sage);
+      color: #FFFFFF;
+      border: 2px solid var(--cozy-sage);
+      font-weight: 700;
+      padding: 0.65rem 1.4rem;
+      border-radius: 999px;
+      box-shadow: 0 4px 14px rgba(107, 142, 111, 0.25);
+
+    }
+
+    .btn-cozy-sage:hover,
+    .btn-cozy-sage:focus {
+      background-color: var(--cozy-sage-hover);
+      border-color: var(--cozy-sage-hover);
+      color: #FFFFFF;
+      box-shadow: 0 6px 18px rgba(107, 142, 111, 0.35);
+    }
+
+    .btn-cozy-peach {
+      background-color: var(--cozy-peach);
+      color: #FFFFFF;
+      border: 2px solid var(--cozy-peach);
+      font-weight: 700;
+      padding: 0.65rem 1.4rem;
+      border-radius: 999px;
+      box-shadow: 0 4px 14px rgba(233, 157, 121, 0.25);
+    }
+
+    .btn-cozy-peach:hover,
+    .btn-cozy-peach:focus {
+      background-color: var(--cozy-peach-hover);
+      border-color: var(--cozy-peach-hover);
+      color: #FFFFFF;
+      box-shadow: 0 6px 18px rgba(233, 157, 121, 0.35);
+    }
+
+    .btn-cozy-outline {
+      background-color: transparent;
+      color: var(--cozy-wood);
+      border: 2px solid var(--cozy-border);
+      font-weight: 700;
+      padding: 0.65rem 1.35rem;
+      border-radius: 999px;
+
+    }
+
+    .btn-cozy-outline:hover {
+      background-color: var(--cozy-sand);
+      border-color: var(--cozy-peach);
+      color: var(--cozy-wood);
+   
+    }
+
+    /* Badges Temáticos */
+    .cozy-badge-pill {
+      background-color: var(--cozy-sage-light);
+      color: var(--cozy-sage);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.45rem 1rem;
+      border-radius: 999px;
+      border: 1px solid rgba(107, 142, 111, 0.2);
+    }
+
+    .cozy-tag-peach {
+      background-color: var(--cozy-peach-light);
+      color: var(--cozy-peach-hover);
+      font-weight: 600;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+    }
+
+    .cozy-tag-yellow {
+      background-color: var(--cozy-yellow-light);
+      color: #A3791B;
+      font-weight: 600;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+    }
+
 /* footer */
 .cozy-footer {
   background-color: #43352c;
